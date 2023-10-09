@@ -11,7 +11,7 @@ const Coin = ({ coin }) => {
         <div className="flex items-center gap-1 w-full">
           <img className="w-6" src={coin.image} alt={coin.name} />
           <p>{coin.name}</p>
-          <span className="text-xs">({coin.symbol})</span>
+          <span className="text-xs hidden sm:block">({coin.symbol})</span>
         </div>
         <span className="w-full text-center">{currencyFormat(coin.current_price)}</span>
         <span className={`flex gap-1 ${coin.price_change_percentage_24h < 0 ? 'text-red-400' : 'text-green-400'}`}>
