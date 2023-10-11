@@ -29,7 +29,7 @@ export default function Login() {
     useEffect(() => {
         if(user || gUser) {
             navigate("/home");
-            toast.success('Welcome to Crypto Track', {
+            toast.success('Welcome to Crypto Wave', {
                 position: toast.POSITION.TOP_CENTER
             });
         }
