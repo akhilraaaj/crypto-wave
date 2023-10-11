@@ -24,7 +24,7 @@ export default function Register() {
     useEffect(() => {
         if(user) {
             navigate("/home");
-            toast.success('Welcome to Crypto Track', {
+            toast.success('Welcome to Crypto Wave', {
               position: toast.POSITION.TOP_CENTER
           });
         }
