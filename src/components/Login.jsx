@@ -42,7 +42,7 @@ export default function Login() {
         <div className="bg-gray-50 flex rounded-2xl ring-2 ring-gray-200 shadow-xl max-w-3xl p-5 items-center">
         <div className="md:block hidden w-1/2">
         <div className="text-4xl mb-10 flex items-center font-bold text-gray-500">
-            <span className="text-yellow-800">C</span>rypto<span className="text-yellow-800">T</span>racker<span className="ml-1 text-yellow-800 text-4xl"><LogoIcon /></span>
+            <span className="text-yellow-800">C</span>rypto<span className="text-yellow-800">W</span>ave<span className="ml-1 text-yellow-800 text-4xl"><LogoIcon /></span>
         </div>
             <img className="rounded-2xl" src="https://m.foolcdn.com/media/dubs/original_images/original_imageshttpsg.foolcdn.comeditorialimages655229gettyimages-cryptocu.jpg" />
           </div>
