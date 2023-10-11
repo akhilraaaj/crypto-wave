@@ -28,11 +28,6 @@ export default function Register() {
               position: toast.POSITION.TOP_CENTER
           });
         }
-        else if(!user) {
-          toast.error('Invalid Credentials, Please try again!!', {
-            position: toast.POSITION.TOP_RIGHT
-        });
-        }
     }, [user, navigate]);
 
     console.log(user);
