@@ -52,7 +52,7 @@ const Navbar = () => {
       <div className="flex items-center gap-1 cursor-pointer" onClick={() => navigate('/home')}>
         <LogoIcon />
         <p className="font-semibold">
-          <span className="text-yellow-00">C</span>rypto<span className="text-yellow-700">T</span>racker
+          <span className="text-yellow-00">C</span>rypto<span className="text-yellow-700">W</span>ave
         </p>
       </div>
       <div className="flex items-center gap-4"> {/* Add this container */}
