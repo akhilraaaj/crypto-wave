@@ -59,7 +59,10 @@ export default function Register() {
               </div>
               <button className="bg-[#002D74] rounded-xl text-white py-2 mb-6 hover:scale-105 duration-300">Register</button>
             </form>
-
+             <div className="mt-2 text-xs flex justify-between items-center text-[#002D74]">
+              <p>Already have an account?</p>
+              <button className="py-2 px-5 bg-white border rounded-xl hover:scale-110 duration-300" onClick={() => navigate('/login')}>Login</button>
+            </div>
           </div>
           
         </div>
