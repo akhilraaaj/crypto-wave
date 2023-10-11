@@ -25,7 +25,7 @@ const Navbar = () => {
   // console.log(user);
 
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "cupcake"
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
   );
 
   // update state on toggle
@@ -64,7 +64,7 @@ const Navbar = () => {
               // show toggle image based on localstorage theme
               checked={theme === "light" ? false : true}
             />
-            <img width="30" height="30" src="https://img.icons8.com/emoji/48/sun-emoji.png" alt="cupcake" className="w-8 h-8 swap-on" />
+            <img width="30" height="30" src="https://img.icons8.com/emoji/48/sun-emoji.png" alt="light" className="w-8 h-8 swap-on" />
             <img width="30" height="30" src="https://img.icons8.com/parakeet/48/bright-moon.png" alt="dark" className="w-8 h-8 swap-off" />
           </label>
         </button>
