@@ -48,7 +48,7 @@ export default function Register() {
               <input className="p-2 mt-4 rounded-xl border bg-white" type="text" name="name" placeholder="Name" />
               <input className="p-2 rounded-xl border bg-white" type="email" name="email" placeholder="Email" />
               <div className="relative">
-                <input className="p-2 rounded-xl border w-full bg-white" type="password" name="password" placeholder="Password (Min 6 Characters)" />
+                <input className="p-2 rounded-xl border w-full bg-white" type="password" name="password" placeholder="Password(Min 6 Characters)" />
                 <input className="p-2 mt-4 rounded-xl border w-full bg-white" type="password" name="password" placeholder="Confirm Password" />
                 
               </div>
